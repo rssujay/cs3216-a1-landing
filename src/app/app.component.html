@@ -15,8 +15,9 @@
     <li nz-menu-item nzMatchRouter>
       <a [routerLink]="['/', 'faq']">FAQ</a>
     </li>
-    <span></span>
-    <button nz-button [nzSize]="large" nzType="default">Register Now!</button>
+    <div style="float: right;">
+      <button nz-button [nzSize]="large" nzType="default">Register Now!</button>
+    </div>
   </ul>
   <router-outlet></router-outlet>
 <nz-layout>
