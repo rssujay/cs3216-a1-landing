@@ -9,15 +9,16 @@
 
 .blue-color {
   background-color: blue;
-  min-height: 100px;
+  min-height: 200px;
 }
+
 .dark-color {
   background-color: black;
-  min-height: 100px;
+  min-height: 200px;
 }
 .white-color {
   background-color: white;
-  min-height: 100px;
+  min-height: 200px;
 }
 .box {
   width: 100%;
