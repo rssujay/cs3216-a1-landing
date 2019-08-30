@@ -1,0 +1,15 @@
+<nz-layout class="layout" style="background-color: white;">
+  <ul nz-menu nzMode="horizontal">
+    <li nz-menu-item nzMatchRouter>
+      <a [routerLink]="['/']">Home</a>
+    </li>
+    <li nz-menu-item nzMatchRouter>
+      <a [routerLink]="['/', 'about']">About</a>
+    </li>
+    <div style="float: right;">
+      <button nz-button [nzSize]="large" nzType="default">Try Now!</button>
+    </div>
+  </ul>
+  <router-outlet></router-outlet>
+<nz-layout>
+
