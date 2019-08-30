@@ -1,15 +1,6 @@
-.cover-img {
-  background-image: url("../../assets/pm.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  height: 100%;
-  top: -100;
-}
-
 .box {
   width: 100%;
-  height: 1000px;
+  height: 300px;
   border-radius: 5px;
   box-shadow: 0 2px 30px rgba(black, .2);
   background: lighten(#f0f4c3, 10%);
@@ -56,12 +47,13 @@
 }
 
 .title {
+  padding-top: 50px;
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   z-index: 1;
-  line-height: 300px;
+  line-height: 100px;
   text-align: center;
   transform: translate3d(0, 0, 0);
   color: white;
