@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  height: 100%;
+  height: 1000px;
 }
 
 .blue-color {
@@ -104,7 +104,6 @@
   border-bottom-left-radius: 250% 160px;
   border-bottom-right-radius: 250% 160px;
   margin-top: -4em;
-  padding-right: 2em;
   position: relative;
   background: #3BB9FF url("../../assets/black-wave.svg") center bottom no-repeat;
   min-height: 350px;
