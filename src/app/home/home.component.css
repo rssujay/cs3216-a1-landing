@@ -113,3 +113,6 @@
   padding-top: 4em;
 }
 
+.svg-animation:hover, .svg-animation:focus {
+  filter: sepia(1) saturate(10000%) hue-rotate(120deg);
+}

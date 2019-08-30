@@ -1,12 +1,3 @@
-.cover-img {
-  background-image: url("../../assets/pm.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  height: 100%;
-  top: -100;
-}
-
 .box {
   width: 100%;
   height: 1000px;
