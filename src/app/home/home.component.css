@@ -1,5 +1,5 @@
 .cover-img {
-  background-image: url("../../assets/pm.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/cover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -76,7 +76,7 @@
   top: 0;
   width: 100%;
   z-index: 1;
-  line-height: 100px;
+  line-height: 50px;
   text-align: center;
   transform: translate3d(0, 0, 0);
   color: white;
